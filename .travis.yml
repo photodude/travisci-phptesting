@@ -30,3 +30,4 @@ before_script:
   - chmod ugo+x build/travis/travis.sh
   - ./build/travis/travis.sh
   - phpenv rehash
+  - sudo apt-cache pkgnames
