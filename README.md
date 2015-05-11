@@ -1,2 +1,508 @@
 # travisci-phptesting
 some testing of travis ci php environments 
+
+# List of Travis CI php extentions available in apt-get
+-  apache2-prefork-dev - Apache development headers - non-threaded MPM
+-  dh-linktree - Create symlink trees within a Debian package
+-  doxygen - Documentation system for C, C++, Java, Python and other languages
+- doxygen-doc - Documentation for doxygen
+- doxygen-latex - Documentation system for C, C++, Java, Python and other languages
+- exuberant-ctags - build tag file indexes of source code definitions
+- ibus-table-yong - ibus-table input method: YongMa
+- libapache2-mod-php5 - server-side, HTML-embedded scripting language (Apache 2 module)
+- libct4 - libraries for connecting to MS SQL and Sybase SQL servers
+- libcups2-dev - Common UNIX Printing System(tm) - Development files CUPS library
+- libgtksourceview-3.0-common - common files for the GTK+ syntax highlighting widget
+- libmdb2 - Core library for accessing JET / MS Access (MDB) files
+- libnet-libidn-perl - Perl bindings for GNU Libidn
+- libsmokebase3 - SMOKE base library
+- libsmokephonon3 - Qt Phonon SMOKE library
+- libsmokeqimageblitz3 - QImageBlitz SMOKE libraries
+- libsmokeqsci3 - QScintilla2 SMOKE library
+- libsmokeqt3support4-3 - Qt3 Support SMOKE library
+- libsmokeqt4-dbg - Qt SMOKE libraries debug symbols
+- libsmokeqt4-dev - Development files for Qt SMOKE libraries
+- libsmokeqtcore4-3 - Qt Core SMOKE library
+- libsmokeqtdbus4-3 - Qt D-Bus SMOKE library
+- libsmokeqtdeclarative4-3 - Qt Declarative SMOKE library
+- libsmokeqtgui4-3 - Qt Gui SMOKE library
+- libsmokeqthelp4-3 - Qt Help SMOKE library
+- libsmokeqtnetwork4-3 - Qt Network SMOKE library
+- libsmokeqtopengl4-3 - Qt OpenGL SMOKE library
+- libsmokeqtscript4-3 - Qt Script SMOKE library
+- libsmokeqtsql4-3 - Qt Sql SMOKE library
+- libsmokeqtsvg4-3 - Qt Svg SMOKE library
+- libsmokeqttest4-3 - Qt Test SMOKE library
+- libsmokeqtuitools4-3 - Qt Ui Tools SMOKE library
+- libsmokeqtwebkit4-3 - Qt WebKit SMOKE library
+- libsmokeqtxml4-3 - Qt Xml SMOKE library
+- libsmokeqtxmlpatterns4-3 - Qt XmlPatterns SMOKE library
+- php-pear - PEAR - PHP Extension and Application Repository
+- php5 - server-side, HTML-embedded scripting language (metapackage)
+- php5-cgi - server-side, HTML-embedded scripting language (CGI binary)
+- php5-cli - command-line interpreter for the php5 scripting language
+- php5-common - Common files for packages built from the php5 source
+- php5-curl - CURL module for php5
+- php5-dbg - Debug symbols for PHP5
+- php5-dev - Files for PHP5 module development
+- php5-gd - GD module for php5
+- php5-gmp - GMP module for php5
+- php5-ldap - LDAP module for php5
+- php5-mysql - MySQL module for php5
+- php5-odbc - ODBC module for php5
+- php5-pgsql - PostgreSQL module for php5
+- php5-pspell - pspell module for php5
+- php5-recode - recode module for php5
+- php5-snmp - SNMP module for php5
+- php5-sqlite - SQLite module for php5
+- php5-tidy - tidy module for php5
+- php5-xmlrpc - XML-RPC module for php5
+- php5-xsl - XSL module for php5
+- python-cheetah - text-based template engine and Python code generator
+- smoke-dev-tools - SMOKE development tools
+- smokegen-dbg - SMOKE development tools -- debug symbols
+- swig - Generate scripting interfaces to C/C++ code
+- swig2.0 - Generate scripting interfaces to C/C++ code
+- mgltools-cadd - Computer Aided Drug Discovery (CADD) Pipeline
+- php-mythtv - PHP Bindings for MythTV
+- ampache - web-based audio file management system
+- ampache-themes - Themes for Ampache
+- aolserver4-doc - AOL web server version 4 - documentation
+- apertium - Shallow-transfer machine translation engine
+- bandwidthd - Tracks usage of TCP/IP and builds html files with graphs
+- bandwidthd-pgsql - Tracks usage of TCP/IP and builds html files with graphs
+- cacti - Frontend to rrdtool for monitoring systems and services
+- cacti-spine - Multi-Threading poller for cacti
+- cakephp - MVC rapid application development framework for PHP
+- cakephp-instaweb - Development webserver for CakePHP applications
+- cakephp-scripts - MVC rapid application development framework for PHP (scripts)
+- chameleon-cursor-theme - modern but not gaudy X11 mouse theme
+- checkservice - Checks the status of services on (remote) hosts
+- cherokee - Very fast, flexible and easy to configure web server
+- cherokee-admin - Cherokee web server - Administrative plugin
+- cherokee-doc - Very fast, flexible and easy to configure web server
+- chora2 - code repository viewing component for horde framework
+- codelite - Powerful and lightweight C/C++ IDE
+- codelite-plugins - Powerful and lightweight C/C++ IDE - plugins
+- coderay - Helper programs for CodeRay Ruby lib for syntax highlighting
+- coffeescript - interpreter and compiler for the CoffeeScript language
+- dh-make-php - Creates Debian source packages for PHP PEAR and PECL extensions
+- dia2code - a dia-UML code generator
+- dimp1 - dynamic webmail component for horde framework
+- doctrine - Tool for object-relational mapping in PHP
+- doxygen-gui - GUI configuration tool for doxygen
+- drupal6-mod-contemplate - contemplate module for Drupal 6
+- drush - command line shell and Unix scripting interface for Drupal
+- dwoo - PHP5 template engine
+- emdebian-grip-server - server-side support for Emdebian Grip
+- empty-expect - Run processes and applications under pseudo-terminal
+- encadre-image - A simple program to customize and to manage pictures
+- extremetuxracer-gimp-dev - plugins for GIMP for easy development of etracer courses
+- fckeditor - rich text format javascript web editor
+- freeradius-dialupadmin - set of PHP scripts for administering a FreeRADIUS server
+- gallery - a web-based photo album written in php
+- gallery2 - web-based photo album written in PHP
+- ganglia-webfrontend - cluster monitoring toolkit - web front-end
+- geany - fast and lightweight IDE
+- geany-common - fast and lightweight IDE -- common files
+- gosa-plugin-phpgw - phpgw plugin for GOsaÂ²
+- gosa-plugin-phpgw-schema - LDAP schema for GOsaÂ² phpgw plugin
+- gosa-plugin-phpscheduleit - phpscheduleit plugin for GOsaÂ²
+- gosa-plugin-phpscheduleit-schema - LDAP schema for GOsaÂ² phpscheduleit plugin
+- gphpedit - development environment for PHP/HTML/CSS
+- grub-imageboot - boot iso, harddisk and floppy images with grub2 and syslinux memdisk
+- gtk-clearlooks-gperfection2-theme - gtk theme for the clearlooks engine
+- haserl - CGI scripting program for embedded environments
+- haxe - Web-oriented universal programming language
+- horde3 - horde web application framework
+- hsetroot - tool for compose root-pixmaps for X11
+- htcheck-php - Simple php interface to database generated by ht://Check
+- html-helper-mode - A popular HTML editing mode for emacs
+- imp4 - webmail component for horde framework
+- ir.lv2 - LV2 IR reverb
+- jclicmoodle - JClic module for Moodle
+- jed - editor for programmers (textmode version)
+- jffnms - web-based Network Management System (NMS) for IP networks
+- jkmeter - horizontal or vertical bargraph audio level meter for Jack Audio Connection Kit
+- kdevelop-php - PHP plugin for KDevelop
+- kdevelop-php-dbg - Debugging symbols for the KDevelop PHP Plugin
+- kdevelop-php-docs - PHP documentation plugin for KDevelop
+- klone - embedded web application development framework
+- kronolith2 - calendar component for Horde Framework
+- kwin-style-dekorator - Windows decoration engine for KDE 4 using user-supplied PNG files
+- letodms - document management system based on PHP and MySQL
+- libapache2-mod-authn-yubikey - Yubikey authentication provider for Apache
+- libapache2-mod-fcgid - an alternative module compat with mod_fastcgi
+- libapache2-mod-fcgid-dbg - debugging symbols for mod_fcgid
+- libapache2-mod-php5filter - server-side, HTML-embedded scripting language (apache 2 filter module)
+- libapache2-mod-suphp - Apache2 module to run php scripts with the owner permissions
+- libapache2-mod-xsendfile - Serve large static files efficiently from web applications
+- libarc-php - Flexible RDF system for semantic web and PHP practitioners
+- libawl-php - Andrew's Web Libraries - PHP Utility Libraries
+- libcgi-session-serialize-yaml-perl - YAML and YAML::Syck support for CGI::Session's serializers
+- libcherokee-base0 - Cherokee web server - Base libraries
+- libcherokee-base0-dev - Cherokee web server - base libraries' development files
+- libcherokee-client0 - Cherokee web server - Client libraries
+- libcherokee-client0-dev - Cherokee web server - Client libraries' development files
+- libcherokee-mod-geoip - Cherokee web server - GeoIP-based IP resolution functionality
+- libcherokee-mod-ldap - Cherokee web server - LDAP user validator plugin
+- libcherokee-mod-libssl - Cherokee web server - SSL crypto functions plugin
+- libcherokee-mod-mysql - Cherokee web server - MySQL user validator plugin
+- libcherokee-mod-rrd - Cherokee web server - RRDtool based information collector
+- libcherokee-mod-streaming - Cherokee web server - Media streaming functions plugin
+- libcherokee-server0 - Cherokee web server - Server libraries
+- libcherokee-server0-dev - Cherokee web server - Server librardevelopment files
+- libexpect-php5 - expect module for PHP 5
+- libfann-dbg - Debugging symbols for FANN
+- libfann-dev - Development libraries and header files for FANN
+- libfann-doc - API documentation for FANN
+- libfann2 - Fast Artificial Neural Network Library
+- libfpdf-tpl-php - PHP library to use PDF templates with FPDF
+- libfpdi-php - PHP library for importing existing PDF documents into FPDF
+- libghc-highlighting-kate-dev - syntax highlighting library based on Kate syntax descriptions
+- libghc-highlighting-kate-doc - library documentation for highlighting-kate
+- libghc-highlighting-kate-prof - highlighting-kate library with profiling enabled
+- libgtksourceview2.0-common - common files for the GTK+ syntax highlighting widget
+- libgv-php5 - PHP5 bindings for graphviz
+- libhdate-php - Provides a library that help use hebrew dates (php bindings)
+- libhtml-defang-perl - Cleans HTML as well as CSS of scripting and other executable contents, and neutralises XSS attacks.
+- libhtml-wikiconverter-phpwiki-perl - HTML to wiki markup converter - PhpWiki dialect
+- libjs-edit-area - a free javascript editor for source code
+- libjs-jquery-jush - jQuery Syntax Highlighter
+- libkohana-php - swift, secure, and small PHP 5 framework
+- libkohana2-modules-php - lightweight PHP5 MVC framework (extension modules)
+- libkohana2-php - lightweight PHP5 MVC framework
+- libkohana3.1-core-php - PHP5 framework core classes
+- libkohana3.1-mod-auth-php - swift, secure, and small PHP 5 framework, auth module
+- libkohana3.1-mod-cache-php - swift, secure, and small PHP 5 framework, cache module
+- libkohana3.1-mod-codebench-php - swift, secure, and small PHP 5 framework, codebench module
+- libkohana3.1-mod-database-php - swift, secure, and small PHP 5 framework, database module
+- libkohana3.1-mod-image-php - swift, secure, and small PHP 5 framework, image module
+- libkohana3.1-mod-orm-php - swift, secure, and small PHP 5 framework, ORM module
+- libkohana3.1-mod-unittest-php - swift, secure, and small PHP 5 framework, unittest module
+- libkohana3.1-mod-userguide-php - swift, secure, and small PHP 5 framework, userguide module
+- libkohana3.1-php - PHP5 framework metapackage
+- libkohana3.2-core-php - PHP5 framework core classes
+- libkohana3.2-mod-auth-php - swift, secure, and small PHP 5 framework, auth module
+- libkohana3.2-mod-cache-php - swift, secure, and small PHP 5 framework, cache module
+- libkohana3.2-mod-codebench-php - swift, secure, and small PHP 5 framework, codebench module
+- libkohana3.2-mod-database-php - swift, secure, and small PHP 5 framework, database module
+- libkohana3.2-mod-image-php - swift, secure, and small PHP 5 framework, image module
+- libkohana3.2-mod-orm-php - swift, secure, and small PHP 5 framework, ORM module
+- libkohana3.2-mod-unittest-php - swift, secure, and small PHP 5 framework, unittest module
+- libkohana3.2-mod-userguide-php - swift, secure, and small PHP 5 framework, userguide module
+- libkohana3.2-php - PHP5 framework metapackage
+- liblangscan-ruby - Ruby module of scanners for programming languages
+- liblustre - Runtime library for Lustre filesystem utilities
+- libmarkdown-php - PHP library for rendering Markdown data
+- libmesh-doc - libMesh - A C++ Finite Element Library
+- libming-dev - Library to generate SWF (Flash) Files (development files)
+- libming-util - Library to generate SWF (Flash) Files - Utilities
+- libming1 - Library to generate SWF (Flash) Files
+- libnusoap-php - SOAP toolkit for PHP
+- liboauth-php - PHP library implementing the OAuth secure authentication protocol
+- libocsigen-ocaml-dev - development librairies for Ocsigen
+- libow-php5 - Dallas 1-wire support: PHP5 bindings
+- libownet-php - Dallas 1-wire support: PHP OWNet library
+- libphp-adodb - ADOdb database abstraction layer for PHP
+- libphp-cloudfusion - A php toolkit for popular cloud computing services
+- libphp-jabber - Object-oriented PHP interface for the Jabber/XMPP protocol
+- libphp-jpgraph - Object oriented graph library for php5
+- libphp-jpgraph-examples - Object oriented graph library for php5 (examples)
+- libphp-magpierss - provides an XML-based RSS parser in PHP
+- libphp-pclzip - zip archive manager class for PHP
+- libphp-phpmailer - full featured email transfer class for PHP
+- libphp-serialization-perl - Perl module to manipulate serialized PHP data structures
+- libphp-simplepie - RSS and Atom feed parsing in PHP
+- libphp-snoopy - Snoopy is a PHP class that simulates a web browser
+- libphp-swiftmailer - component-based library for sending e-mails
+- libpuzzle-php - quick similar image finder - PHP bindings
+- libsmokeakonadi3 - Akonadi SMOKE library
+- libsmokeattica3 - Attica SMOKE library
+- libsmokekde-dev - KDE SMOKE libraries -- development files
+- libsmokekde4-dbg - KDE SMOKE libraries -- debug symbols
+- libsmokekdecore4-3 - KDE Core SMOKE libraries
+- libsmokekdeui4-3 - KDE Ui SMOKE libraries
+- libsmokekfile3 - KFile SMOKE library
+- libsmokekhtml3 - KHTML SMOKE library
+- libsmokekio3 - KIO SMOKE library
+- libsmokeknewstuff2-3 - KNewStuff2 SMOKE library
+- libsmokeknewstuff3-3 - KNewStuff3 SMOKE library
+- libsmokekparts3 - KParts SMOKE libraries
+- libsmokektexteditor3 - KTextEditor SMOKE libraries
+- libsmokekutils3 - KUtils SMOKE libraries
+- libsmokenepomuk3 - Nepomuk SMOKE libraries
+- libsmokenepomukquery3 - Nepomuk Query SMOKE libraries
+- libsmokeokular3 - Okular SMOKE bindings
+- libsmokeplasma3 - Plasma SMOKE library
+- libsmokesolid3 - Solid SMOKE libraries
+- libsmokesoprano3 - Soprano SMOKE library
+- libsmokesopranoclient3 - Soprano Client SMOKE library
+- libsmokesopranoserver3 - Soprano Server SMOKE library
+- libsparkline-php - sparkline graphing library for php
+- libssh2-php - PHP Bindings for libssh2
+- libstring-koremutake-perl - Convert to/from Koremutake Memorable Random Strings
+- libswf-perl - Ming (SWF) module for Perl
+- libtext-mediawikiformat-perl - Convert Mediawiki markup into other text formats
+- libtntnet-dev - Tntnet library development headers
+- libtntnet9 - Tntnet libraries
+- libwulf-dev - development environment for wulfware
+- libwulf2 - shared libraries for running wulfware programs
+- libwww-facebook-api-perl - Facebook API implementation
+- libykclient-dev - Yubikey client library development files
+- libykclient3 - Yubikey client library runtime
+- libzend-framework-php - a simple, straightforward, open-source software framework for PHP 5
+- libzend-framework-zendx-php - a simple, straightforward, open-source software framework for PHP 5
+- llgal - Command-line online gallery generator
+- ltsp-cluster-control - Web based thin-client configuration management
+- mantis - web-based bug tracking system
+- ming-fonts-dejavu - Ming format DejaVue Fonts
+- ming-fonts-opensymbol - Ming format Opensymbol Fonts
+- mlmmj-php-web - web interface for mlmmj, written in php
+- mlmmj-php-web-admin - administrative web interface for mlmmj, written in php
+- modsecurity-crs - modsecurity's Core Rule Set
+- monkey - fast, efficient, small and easy to configure web server
+- mrename - A tool for easy and automatic renaming of many files
+- musica - a web application for browsing and listening to your music
+- nanourl - Lightweight analog of TinyURL
+- nanoweb - HTTP server written in PHP
+- nanoweb-contrib - user contributed utilities for Nanoweb
+- nautilus-image-manipulator - Resize and send images from Nautilus
+- navit - Car navigation system with routing engine
+- netbeans - Extensible Java IDE
+- nzbget - command-line based binary newsgrabber for nzb files
+- ocsigen - web server and programming framework in OCaml
+- ocsigen-dev - development metapackage for Ocsigen
+- papercut - simple and extensible NNTP server
+- parrot - virtual machine for dynamic languages
+- pear-horde-channel - pear.horde.org channel
+- pgtap - Unit testing framework for PostgreSQL
+- phamm - PHP front-end to manage virtual services on LDAP - main package
+- phamm-ldap - PHP front-end to manage virtual services on LDAP - back-end files
+- phamm-ldap-amavis - PHP front-end to manage virtual services on LDAP - back-end files
+- phamm-ldap-vacation - PHP front-end to manage virtual services on LDAP - back-end files
+- php-apc - APC (Alternative PHP Cache) module for PHP 5
+- php-auth - PHP PEAR modules for creating an authentication system
+- php-auth-http - HTTP authentication
+- php-auth-sasl - Abstraction of various SASL mechanism responses
+- php-benchmark - Framework to benchmark PHP scripts or function calls
+- php-cache - framework for caching of arbitrary data
+- php-cache-lite - Fast and lite data cache system
+- php-codesniffer - tokenises PHP code and detects violations of a defined set of coding standards
+- php-compat - Provides components to achieve PHP version independence
+- php-config - Your configuration's swiss-army knife
+- php-console-table - PHP PEAR module to make it easy to build console style tables
+- php-crypt-blowfish - Allows for quick two-way blowfish encryption without requiring the MCrypt PHP extension
+- php-crypt-cbc - A class to emulate Perl's Crypt::CBC module
+- php-crypt-gpg - PHP PEAR module for encrypting and decrypting with GnuPG
+- php-date - PHP PEAR module for date and time manipulation
+- php-db - PHP PEAR Database Abstraction Layer
+- php-doc - Documentation for PHP5
+- php-elisp - Emacs support for php files
+- php-event-dispatcher - Dispatch notifications using PHP callbacks
+- php-file - PHP Pear modules for common file and directory routines
+- php-fpdf - PHP class to generate PDF files
+- php-geshi - Generic Syntax Highlighter
+- php-getid3 - PHP script to extract informations from multimedia files
+- php-gettext - read gettext MO files directly, without requiring anything other than PHP
+- php-html-common - base class for other HTML classes
+- php-html-safe - strip down all potentially dangerous content within HTML
+- php-html-template-it - PEAR HTML Isotemplate API
+- php-htmlpurifier - Standards-compliant HTML filter
+- php-http - PHP PEAR module for HTTP related stuff
+- php-http-request - provides an easy way to perform HTTP requests
+- php-http-upload - Easy and secure management of files submitted via HTML Forms
+- php-http-webdav-server - WebDAV server base class
+- php-image-text - a PEAR module to do advanced text maipulations in images
+- php-imlib - PHP Imlib2 Extension
+- php-kolab-filter - Postfix filters for the Kolab server
+- php-kolab-freebusy - provide Kolab free/busy information
+- php-letodms-core - Document management system - Core files
+- php-letodms-lucene - Document management system - Fulltext search
+- php-log - log module for PEAR
+- php-mail - PHP PEAR module for sending email
+- php-mail-mime - PHP PEAR module for creating MIME messages
+- php-mail-mimedecode - PHP PEAR module to decode MIME messages
+- php-mdb2 - PHP PEAR module to provide a common API for supported RDBMS
+- php-mdb2-driver-mysql - PHP PEAR module to provide a MySQL driver for MDB2
+- php-mdb2-driver-pgsql - PHP PEAR module to provide a PostgreSQL driver for MDB2
+- php-mdb2-driver-sqlite - PHP PEAR module to provide a SQLite driver for MDB2
+- php-mime-type - Utility class for dealing with MIME types
+- php-net-checkip - check the syntax of IPv4 addresses
+- php-net-dime - class that implements DIME encoding
+- php-net-dnsbl - Checks if a given host or URL is listed on a DNSBL or SURBL
+- php-net-ftp - provides an OO interface to the PHP FTP functions
+- php-net-imap - Provides an implementation of the IMAP protocol
+- php-net-ipv4 - IPv4 network calculations and validation
+- php-net-ipv6 - Check and validate IPv6 addresses
+- php-net-ldap - a OO interface for searching and manipulating LDAP-entries
+- php-net-ldap2 - PHP PEAR module for searching and manipulating LDAP-entries
+- php-net-lmtp - PHP PEAR module implementing LMTP protocol
+- php-net-nntp - PHP Pear module for NNTP
+- php-net-ping - PEAR class wrapper around the ping shell utility
+- php-net-portscan - Portscanner utilities
+- php-net-sieve - net_sieve module for PEAR
+- php-net-smartirc - provides an OO interface to the PHP IRC functions
+- php-net-smtp - PHP PEAR module implementing SMTP protocol
+- php-net-socket - PHP PEAR Network Socket Interface module
+- php-net-url - easy parsing of Urls
+- php-net-whois - PHP PEAR module for querying whois services
+- php-numbers-words - a PEAR module providing methods for spelling numerals in words
+- php-openid - PHP OpenID library
+- php-pager - Pages an array of data, creating links to previous and next pages
+- php-radius-legacy - Radius protocol implementation in PHP
+- php-services-json - PHP implementaion of json_encode/decode
+- php-services-weather - acts as an interface to various online weather-services
+- php-soap - a SOAP Client/Server class for PHP
+- php-text-captcha - a PEAR module for generating CAPTCHAs
+- php-text-figlet - a PEAR module for rendering text using FIGlet fonts
+- php-text-password - a PEAR module for creating passwords with PHP
+- php-text-wiki - transforms Wiki and BBCode markup into XHTML, LaTeX or plain text markup
+- php-wikidiff2 - external diff engine for mediawiki
+- php-xajax - A library to develop Ajax applications
+- php-xml-htmlsax3 - SAX parser for HTML and other badly formed XML documents
+- php-xml-parser - PHP PEAR module for parsing XML
+- php-xml-rpc - PHP implementation of the XML-RPC protocol
+- php-xml-rpc2 - PHP XML-RPC client/server library
+- php-xml-rss - php based parser for RSS news feeds
+- php-xml-serializer - swiss-army knife for reading and writing XML files
+- php-zeroc-ice - Ice for PHP extension
+- php5-adodb - Extension optimising the ADOdb database abstraction library
+- php5-auth-pam - A PHP5 extension for PAM authentication
+- php5-enchant - Enchant module for php5
+- php5-exactimage - fast image manipulation library (PHP bindings)
+- php5-ffmpeg - audio and video support via ffmpeg for php5
+- php5-fpm - server-side, HTML-embedded scripting language (FPM-CGI binary)
+- php5-geoip - GeoIP module for php5
+- php5-imagick - ImageMagick module for php5
+- php5-imap - IMAP module for php5
+- php5-interbase - interbase/firebird module for php5
+- php5-intl - internationalisation module for php5
+- php5-lasso - Library for Liberty Alliance and SAML protocols - PHP 5 bindings
+- php5-librdf - PHP5 language bindings for the Redland RDF library
+- php5-mcrypt - MCrypt module for php5
+- php5-memcache - memcache extension module for PHP5
+- php5-memcached - memcached extension module for PHP5, uses libmemcached
+- php5-midgard2 - Midgard2 Content Repository - PHP5 language bindings and module
+- php5-ming - Ming module for php5
+- php5-mysqlnd - MySQL module for php5 (Native Driver)
+- php5-ps - ps module for PHP 5
+- php5-radius - PECL radius module for PHP 5
+- php5-remctl - PECL module for Kerberos-authenticated command execution
+- php5-rrd - rrd module for PHP 5
+- php5-sasl - Cyrus SASL extension for PHP 5
+- php5-suhosin - advanced protection module for php5
+- php5-svn - PHP Bindings for the Subversion Revision control system
+- php5-sybase - Sybase / MS SQL Server module for php5
+- php5-tokyo-tyrant - PHP interface to Tokyo Cabinet's network interface, Tokyo Tyrant
+- php5-uuid - OSSP uuid module for php5
+- php5-xcache - Fast, stable PHP opcode cacher
+- php5-xdebug - Xdebug Module for PHP 5
+- phpbb3 - full-featured, skinnable non-threaded web forum
+- phpbb3-l10n - additional language files for phpBB
+- phpgacl - PHP Generic Access Control Lists
+- phpldapadmin - web based interface for administering LDAP servers
+- phpmyadmin - MySQL web administration tool
+- phppgadmin - web-based administration tool for PostgreSQL
+- phpreports - XML-based report generator for PHP
+- phpsysinfo - PHP based host information
+- phpunit - Unit testing suite for PHP5
+- phpunit-doc - Manual for phpunit
+- phpwebcounter - simple and light web hit counter
+- phpwebcounter-extra - extra graphical numbers to PHP Web Counter
+- pkg-php-tools - various packaging tools and scripts for PHP PEAR packages
+- poppassd - password change server for Eudora and NUPOP
+- postfix-cluebringer-webui - anti-spam plugin for Postfix
+- prayer - standalone IMAP-based webmail server
+- prayer-accountd - account management daemon for Prayer
+- prayer-templates-dev - tools for compiling Prayer templates
+- prayer-templates-src - templates for customizing Prayer Webmail
+- preprocess - portable multi-language file preprocessor
+- psi-plus - Qt-based jabber client (basic version)
+- psi-plus-common - common files for Psi+
+- psi-plus-content-download - content download plugins for Psi+
+- psi-plus-dbg - Qt-based jabber client (basic version) [debug symbols]
+- psi-plus-plugins - plugins for Psi+
+- psi-plus-plugins-dbg - plugins for Psi+ [debug symbols]
+- psi-plus-skins - skins for Psi+
+- psi-plus-webkit - Qt-based jabber client (WebKit version)
+- psi-plus-webkit-dbg - Qt-based jabber client (WebKit version) [debug symbols]
+- python-adodb - A database abstraction library for python
+- python-django-extdirect - Ext.Direct serverside implementation for Django
+- python-htmltmpl - Templating engine for separation of code and HTML
+- python-jinja - small but fast and easy to use stand-alone template engine
+- python-kid - simple Pythonic template language for XML based vocabularies
+- python-ming - Ming (SWF) module for Python
+- python-pyfann - Python bindings for FANN
+- python-pyfann-dbg - Debugging symbols for FANN Python wrapper
+- python-simplemediawiki - extremely low-level Python wrapper to the MediaWiki API
+- python-templayer - layered template library for Python
+- python-vatnumber - Python module to validate VAT numbers
+- rats - Rough Auditing Tool for Security
+- rhythmbox-ampache - play audio streams from an Ampache server
+- rofs - Read-Only Filesystem for FUSE
+- rtgui - Web based front-end for rTorrent
+- ruby-coderay - Ruby library for syntax highlighting
+- ruby-erubis - fast and extensible eRuby implementation which supports multi-language
+- sbnc-php-dev - IRC proxy for multiple users (PHP classes)
+- sbox-dtc - CGI chroot wrapper script for safer hosting environment
+- scummvm - engine for several graphical adventure games
+- scummvm-data - engine for several graphical adventure games (data files)
+- serendipity - Weblog manager with extensive theming and plugin support
+- sextractor - source extractor for astronomical images
+- simplesamlphp - Authentication and federation application supporting several protocols
+- slbackup-php - web-based administration tool for slbackup
+- sloccount - programs for counting physical source lines of code (SLOC)
+- smarty - Template engine for PHP
+- smarty-gettext - Gettext plugin enabling internationalization in Smarty
+- smarty-validate - Server-side form validation plugin for Smarty
+- smarty3 - Template engine for PHP
+- smbind - PHP-based tool for managing DNS zones for BIND
+- spl-core - SPL Programming Language
+- squirrelmail - Webmail for nuts
+- squirrelmail-compatibility - SquirrelMail plugin: Let other plugins work with older/newer SM versions
+- squirrelmail-lockout - SquirrelMail plugin: Disallow access to users/domains
+- squirrelmail-logger - SquirrelMail plugin: Add logging functionality to your webmail interface
+- squirrelmail-quicksave - SquirrelMail plugin: Auto-save messages while composing
+- squirrelmail-secure-login - SquirrelMail plugin: Force users to use SSL encrypted connections
+- squirrelmail-sent-confirmation - SquirrelMail plugin: display a confimation message after sending mails
+- squirrelmail-spam-buttons - SquirrelMail plugin: Place "Spam" buttons on the mailbox message list page
+- squirrelmail-viewashtml - SquirrelMail plugin: View mails as HTML
+- srg - Fast, Flexible and Detailed log analysis for the Squid Proxy
+- suphp-common - Common files for mod suphp
+- synergy - Share mouse, keyboard and clipboard over the network
+- therion-doc - Documentation for Therion Cave surveying software
+- tntnet - modular, multithreaded web application server for C++
+- tntnet-demos - demo web applications for Tntnet
+- tntnet-doc - documentation for Tntnet
+- torrentflux - web based, feature-rich BitTorrent download manager
+- txt2regex - A Regular Expression "wizard", all written with bash2 builtins
+- ukolovnik - Simple todo manager using PHP and MySQL
+- universalindentgui - GUI frontend for several code beautifiers
+- uphpmvault - upload recovery images to HP MediaVault2 via Ethernet
+- vdr-plugin-infosatepg - include TechniSat EPG data via satelite in vdr
+- velocity - Java-based template engine for web application
+- wapiti - Web application vulnerability scanner
+- websvn - interface for Subversion repositories written in PHP
+- weechat-scripts - script collection for the WeeChat IRC client
+- wulf2html - filter for generating HTML logs from wulflogger data
+- wulflogger - extract cluster node data from remote xmlsysd daemons
+- wulfstat - curses based wulfware for monitoring cluster nodes
+- wwwconfig-common - Debian web auto configuration
+- xine-ui - the xine video player, user interface
+- xjed - editor for programmers (x11 version)
+- xmlsysd - wulfware daemon to extract data from cluster nodes
+- yate-scripts - PHP scripts for YATE
+- yhsm-validation-server - Validation server using YubiHSM
+- yubikey-server-c - Yubikey validation server
+- zabbix-frontend-php - network monitoring solution - PHP front-end
+- zend-framework - a simple, straightforward, open-source software framework for PHP 5
+- zend-framework-bin - a simple, straightforward, open-source software framework for PHP 5
+- zoph - Web based digital image presentation and management system
+- libxflaim-dev - An extensible, flexible, adaptable, embeddable XML database engine
+- libxflaim3.2 - An extensible, flexible, adaptable, embeddable XML database engine
+- nagios-plugins-contrib - Plugins for nagios compatible monitoring systems
+- hhvm - HHVM virtual machine, runtime, and JIT for the PHP language
+- hhvm-dbg - HHVM virtual machine, runtime, and JIT for the PHP language
+- hhvm-dev - Developer package for the HHVM virtual machine, runtime, and JIT for the PHP language
+- php5-mapscript - php5-cgi module for MapServer
