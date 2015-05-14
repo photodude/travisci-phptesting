@@ -1,4 +1,5 @@
 # travisci-phptesting
+[![Build Status](https://travis-ci.org/photodude/travisci-phptesting.png?branch=master)](https://travis-ci.org/photodude/travisci-phptesting)
 some testing of travis ci php environments 
 
 # List of Travis CI php extentions available in apt-get
