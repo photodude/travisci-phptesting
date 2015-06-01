@@ -21,7 +21,7 @@ install:
   # Install PHPCS to validate code standards
   - composer require squizlabs/php_codesniffer 2.*
   # Install Cache_Lite for testing
-  - composer require pear/cache_lite 1.7.16
+  #- composer require pear/cache_lite 1.7.16
 
 before_script:
   # Set up Apache
