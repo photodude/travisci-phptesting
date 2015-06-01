@@ -31,3 +31,4 @@ before_script:
   - ./build/travis/travis.sh
   - phpenv rehash
   #- sudo apt-cache search php
+  - apt-cache showpkg arduino arduino-core
