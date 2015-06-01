@@ -4,12 +4,12 @@ php:
   - 7.0
   #- hhvm
 
-matrix:
+#matrix:
   #exclude:
     #- php: hhvm
       #env: DB=pgsql  # PDO driver for PostgreSQL currently unsupported by HHVM
-  allow_failures:
-    - php: 7.0
+  #allow_failures:
+    #- php: 7.0
     #- php: hhvm
 
 services:
@@ -30,6 +30,6 @@ before_script:
   #- chmod ugo+x build/travis/travis.sh
   #- ./build/travis/travis.sh
   #- phpenv rehash
-  - apt-get update
+  - sudo apt-get update
   #- sudo apt-cache search php
-  - apt-cache showpkg arduino arduino-core
+  - sudo apt-cache showpkg arduino arduino-core
