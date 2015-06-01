@@ -32,4 +32,4 @@ before_script:
   #- phpenv rehash
   - sudo apt-get update
   #- sudo apt-cache search php
-  - sudo apt-cache showpkg arduino arduino-core
+  - sudo apt-get showpkg arduino arduino-core
