@@ -31,5 +31,7 @@ before_script:
   #- ./build/travis/travis.sh
   #- phpenv rehash
   - sudo apt-get update
+  - sudo apt-get upgrade
+  - sudo apt-get dist-upgrade
   #- sudo apt-cache search php
-  - sudo apt-get showpkg arduino arduino-core
+  - sudo apt-cache showpkg arduino arduino-core
